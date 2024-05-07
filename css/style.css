@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  background-color:rgba(255, 245, 245, 0.949);
+}
+   /* Custom scrollbar for WebKit-based browsers */
+   ::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the scrollbar track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Round corners of the scrollbar thumb */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+  }
+header{
+    margin-bottom: 3rem;
+}
+#logo{
+    width: 2rem;
+}
+a{
+    color: darkblue;
+    text-decoration-line: none;
+}
+a:hover{
+    color: blue;
+}
+.blend{
+    width: auto;
+    height: 75%;
+    
+}
+.imgRound{
+    border-radius: 3rem;
+    height: 95%;
+  
+}
+.parallax {
+    background-image: url('../Images/Why\ It\ Can\ Be\ Hard\ to\ Live\ with\ High-Functioning\ Autism.gif');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px; /* Adjust the height as needed */
+    color: #fff; /* Text color */
+    padding: 100px 0; /* Padding top and bottom */
+    text-shadow: 2px 1px 5px black ;
+  }
+
+  .footer {
+margin-top:1rem ;
+    font-size: larger;
+    bottom: 0;
+    width: 100%;
+    background-color: #3d3d3d; /* Bootstrap light grey background color */
+    padding: 1%; /* Adjust padding as needed */
+  }
+  .download-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Adjust top margin as needed */
+  }
+  .download-option .card {
+    width: 300px; /* Set card width as needed */
+    margin: 0 10px; /* Adjust spacing between cards */
+    border: none; /* Remove card border */
+  }
+  .card-body {
+    padding: 20px;
+  }
+  .card-title {
+    font-size: 1.25rem; /* Adjust title font size as needed */
+    margin-bottom: 15px; /* Adjust bottom margin as needed */
+  }
+  .bottom{
+    position: fixed;
+  } 
+
+  /* Contact us  */
+  .contact-section {
+    height: 30vh; /* Adjust height as per your requirement */
+    background-image: url('../Images/contact-bg.jpg'); /* Replace 'your-image.jpg' with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Text color */
+    text-shadow: 2px 1px black;
+  }
+  .contact-text {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+ /* Custom CSS for Contact Section */
+
+ .contact-section-links {
+  padding: 50px 0;
+  /* background-color: #f8f9fa; Background color of the section */
+}
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.whatsapp-link {
+  color: #25D366; /* WhatsApp brand color */
+}
+.github-link {
+  color: #000000; /* GitHub brand color */
+}
+.email-link {
+  /* color: #007bff; Email default color */
+  color: #DB4437
+}
+.contact-link {
+  margin: 10px 0;
+  font-size: 2rem;
+  /* color: #007bff; Link color */
+  transition: transform 0.3s ease;
+}
+.contact-link:hover {
+  color: #0056b3; /* Hover color */
+  transform: scale(1.1); /* Scale on hover */
+}

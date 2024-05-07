@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Custom CSS for Contact Section */
+    .contact-section {
+      padding: 50px 0;
+      background-color: #f8f9fa; /* Background color of the section */
+    }
+    .contact-links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .contact-link {
+      margin: 15px 0;
+      font-size: 24px;
+      color: #007bff; /* Link color */
+      transition: transform 0.3s ease;
+    }
+    .contact-link:hover {
+      color: #0056b3; /* Hover color */
+      transform: scale(1.1); /* Scale on hover */
+    }
+  </style>
+</head>
+<body>
+
+<div class="contact-section">
+  <div class="container text-center">
+    <h2>Contact Us</h2>
+    <div class="contact-links">
+      <a href="https://wa.me/your-whatsapp-number" class="contact-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="https://github.com/your-username" class="contact-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+      <a href="mailto:your-email@example.com" class="contact-link"><i class="fas fa-envelope"></i> Email</a>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS (Optional, for some Bootstrap components) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Font Awesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha384-awKz4+7y2rjPjxpo3z+cvkOHbMv9vL9wT5z9xwz2RzvjSu2U7y+65rJv+uxNEZRz" crossorigin="anonymous"></script>
+<script>
+  // JavaScript for scaling icons on hover
+  document.querySelectorAll('.contact-link').forEach(link => {
+    link.addEventListener('mouseenter', () => {
+      link.querySelector('i').style.transform = 'scale(1.1)';
+    });
+    link.addEventListener('mouseleave', () => {
+      link.querySelector('i').style.transform = 'scale(1)';
+    });
+  });
+</script>
+
+</body>
+</html>
